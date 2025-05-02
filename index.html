@@ -44,19 +44,18 @@
                             المكتبة <i class="fas fa-chevron-down small"></i>
                         </a>
                         <ul class="menu dropdown-menu text-start" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" onclick="window.location.href='#';" href="#">قسم الحفظ
-                                    والمتشابهات</a></li>
-                            <li><a class="dropdown-item" href="#">قسم التجويد</a></li>
+                            <li><a class="dropdown-item" onclick="window.location.href='./sections/index.html';" href="#">قسم التجويد</a></li>
                             <li><a class="dropdown-item" href="#">قسم القراءات</a></li>
-                            <li><a class="dropdown-item" href="#">قسم التفسير واصوله</a></li>
-                            <li><a class="dropdown-item" href="#">قسم العقيدة والتوحيد</a></li>
+                            <li><a class="dropdown-item" href="#">قسم اللغة العربية</a></li>
                             <li><a class="dropdown-item" href="#">قسم علوم الحديث</a></li>
                             <li><a class="dropdown-item" href="#">قسم السيرة النبوية</a></li>
-                            <li><a class="dropdown-item" href="#">قسم الفقه وأصوله والمذاهب الفقهية</a></li>
                             <li><a class="dropdown-item" href="#">قسم الدعوة واصولها</a></li>
+                            <li><a class="dropdown-item" href="#">قسم التفسير واصوله</a></li>
+                            <li><a class="dropdown-item" href="#">قسم العقيدة والتوحيد</a></li>
+                            <li><a class="dropdown-item" href="#">قسم الحفظ والمتشابهات</a></li>
                             <li><a class="dropdown-item" href="#">قسم الرقائق والأداب الاسلامية</a></li>
-                            <li><a class="dropdown-item" href="#">قسم اللغة العربية</a></li>
                             <li><a class="dropdown-item" href="#">مؤلفات الشيخة أم حفص الدمياطية</a></li>
+                            <li><a class="dropdown-item" href="#">قسم الفقه وأصوله والمذاهب الفقهية</a></li>
                         </ul>
                     </li>
 
@@ -96,7 +95,7 @@
                     </li>
                 </ul>
                 <div class="logo">
-                    <a class="navbar-brand ms-auto fw-bold d-none d-lg-block" href="#"><img src="./images/font.png"
+                    <a class="navbar-brand ms-auto fw-bold d-none d-lg-block pt-3" href="#"><img src="./images/font.png"
                             alt=""></a>
                 </div>
             </div>
@@ -106,15 +105,15 @@
 
     <!-- section two -->
     <section id="hero" class="hero section dark-background">
-        <img src="images/islamic-pattern-white-background_691635-5.avif" alt="" data-aos="fade-in" />
+        <img src="images/islamic-pattern-white-background_691635-5.avif" alt="" />
         <div class="container fade-in">
             <div class="row justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
                 <div class="col-xl-8 col-lg-6">
-                    <h2 data-i18n="hero_title"> مرحباً بك فى منصة معهد ميراث النبوة</h2>
-                    <p>
+                    <h2 class="fade-in" > مرحباً بك فى منصة معهد ميراث النبوة</h2>
+                    <p class="fade-in">
                         نحن منصة رقمية للمعهد تسّهل على الطالبات عملية التعلم وتتيح للإدارة التنظيم الذكي
                     </p>
-                    <p>
+                    <p class="fade-in">
                         <button class="click mt-5">إنضم إلينا الآن</button>
                     </p>
                     <!-- <p class="mt-5 hadec">
@@ -133,44 +132,46 @@
     <!-- scroll Up -->
 
     <!-- section three -->
-    <div class="container py-5">
+    <div class="container py-5" id="About">
         <div class="values">
             <div class="text-center mb-4">
-                <h2 class="section-title fade-in-left" data-i18n="ourValues">ما تقدمه المنصة</h2>
-                <p data-i18n="valuesText">تقدّم المنصة برامج دراسية متدرجة لتعليم العلوم الشرعية مثل الفقه ، التفسير ،
-                    والحديث . تشمل الدورات مستويات متعددة تناسب المبتدئين والمتقدمين بإشراف نخبة من العلماء ,
-                    تهدف إلى تأصيل الفهم الشرعي الصحيح وربط الطلاب بالمنهج العلمي المنضبط , مما يساعد الطلاب على الجمع
-                    بين التأصيل العلمي والتأهيل العملي لخدمة مجتمعاتهم ونشر القيم الإسلامية السمحة</p>
+                <h2 class="section-title fade-in-left">ما تقدمه المنصة</h2>
+                <p class="fade-in">
+                    تقدّم المنصة برامج دراسية متدرجة في العلوم الشرعية، تشمل الفقه، التفسير، والحديث، عبر دورات متنوعة
+                    تغطي مستويات متعددة تناسب المبتدئات والمتقدمات. تشرف على هذه البرامج نخبة من الشيخات والمعلمات
+                    المؤهلات، بهدف ترسيخ الفهم الشرعي الصحيح وربط الطالبات بالمنهج العلمي المنضبط. وتسعى المنصة من خلال
+                    ذلك إلى تمكين طالبات العلم من الجمع بين التأصيل العلمي والتأهيل العملي، بما يتيح لهن خدمة مجتمعاتهن
+                    ونشر القيم الإسلامية السمحة
             </div>
 
             <div class="values-container fade-in">
                 <div class="value-card">
                     <!-- <div class="value-icon"></div> -->
-                    <h5 class="fw-bold mt-2" data-i18n="innovation"> أحكام التجويد</h5>
+                    <h5 class="fw-bold mt-2 fade-in-left "> أحكام التجويد</h5>
                 </div>
                 <div class="value-card">
                     <!-- <div class="value-icon"></div> -->
-                    <h5 class="fw-bold mt-2" data-i18n="quality">جميع القراءات</h5>
+                    <h5 class="fw-bold mt-2 fade-in-left">جميع القراءات</h5>
                 </div>
                 <div class="value-card">
                     <!-- <div class="value-icon"></div> -->
-                    <h5 class="fw-bold mt-2" data-i18n="focusOnClient">الفقه وأصوله</h5>
+                    <h5 class="fw-bold mt-2 fade-in-left">الفقه وأصوله</h5>
                 </div>
                 <div class="value-card">
                     <!-- <div class="value-icon"></div> -->
-                    <h5 class="fw-bold mt-2" data-i18n="continuousLearning">المذاهب الفقهية</h5>
+                    <h5 class="fw-bold mt-2 fade-in-left">المذاهب الفقهية</h5>
                 </div>
                 <div class="value-card">
                     <!-- <div class="value-icon"></div> -->
-                    <h5 class="fw-bold mt-2" data-i18n="teamwork">التفسير وأصوله</h5>
+                    <h5 class="fw-bold mt-2 fade-in-left">التفسير وأصوله</h5>
                 </div>
                 <div class="value-card">
                     <!-- <div class="value-icon"></div> -->
-                    <h5 class="fw-bold mt-2" data-i18n="quickResponse">السيرة النبوية</h5>
+                    <h5 class="fw-bold mt-2 fade-in-left">السيرة النبوية</h5>
                 </div>
                 <div class="value-card">
                     <!-- <div class="value-icon"></div> -->
-                    <h5 class="fw-bold mt-2" data-i18n="sustainability">الأدب الأسلامي</h5>
+                    <h5 class="fw-bold mt-2 fade-in-left">الأدب الأسلامي</h5>
                 </div>
             </div>
         </div>
@@ -178,7 +179,7 @@
     <!-- section three -->
 
     <!-- section four -->
-    <section class="services text-center py-5" id="" style="direction: rtl;">
+    <section  class="services text-center py-5 " id="shariea"  style="direction: rtl;">
         <div class="container">
             <h1 class="text-end fw-bold fade-in-left">أقسام العلوم الشرعية</h1>
             <h2 class="fade-in-left" data-i18n="qualityMeetsInnovation">نظام المراحل الدراسية</h2>
@@ -191,7 +192,7 @@
                             يُركّز على تأسيس الطالب في العقيدة، والفقه، والسيرة، بأسلوب مبسط يسهّل فهم المبادئ الشرعية
                             الأساسية.
                         </p>
-                        <p>
+                        <p class=" fade-in-left" >
                             <button class="click"><i class="fas fa-info-circle ms-2"></i> إنضم إلينا الآن</button>
                         </p>
                     </div>
@@ -204,7 +205,7 @@
                             يبدأ فيه التوسع في المتون، مع فهم أعمق للأدلة وتطبيقات الفقه، وأساسيات أصول الفقه ومصطلح
                             الحديث.
                         </p>
-                        <p>
+                        <p class=" fade-in-left">
                             <button class="click"><i class="fas fa-info-circle ms-2"></i> إنضم إلينا الآن</button>
                         </p>
                     </div>
@@ -217,7 +218,7 @@
                             يُدرّس فيه الفقه المقارن والخلاف العالي، ويُنمّى فيه البحث العلمي والتأصيل الشرعي للمسائل
                             الدقيقة.
                         </p>
-                        <p>
+                        <p class=" fade-in-left">
                             <button class="click"><i class="fas fa-info-circle ms-2"></i> إنضم إلينا الآن</button>
                         </p>
                     </div>
@@ -232,7 +233,7 @@
                             تهدف لتعريف المشاركين بأساسيات العلم الشرعي، وتكون قصيرة المدة وتركز على المفاهيم العامة
                             بلغة مبسطة.
                         </p>
-                        <p>
+                        <p class=" fade-in-left">
                             <button class="click"><i class="fas fa-info-circle ms-2"></i> إنضم الآن</button>
                         </p>
                     </div>
@@ -245,7 +246,7 @@
                             تُقدَّم لمن قطعوا شوطًا في التعلُّم، وتتناول المتون المعتمدة بشرح متوسّط، مع تمارين على
                             الفهم والاستدلال.
                         </p>
-                        <p>
+                        <p class=" fade-in-left">
                             <button class="click"><i class="fas fa-info-circle ms-2"></i> إنضم الآن</button>
                         </p>
                     </div>
@@ -258,7 +259,7 @@
                             تُخصَّص لطالب العلم الجاد، وتشمل دراسات معمقة ومقارنات فقهية، وتدريبًا على البحث والتأصيل
                             العلمي.
                         </p>
-                        <p>
+                        <p class=" fade-in-left">
                             <button class="click"><i class="fas fa-info-circle ms-2"></i> إنضم الآن</button>
                         </p>
                     </div>
@@ -278,7 +279,7 @@
                     <h2 class="fw-bold fade-in-left ms-2" data-i18n="ourVision">رؤيتنا</h2>
                 </div>
                 <div class="vision-message w-100">
-                    <p>
+                    <p class="fade-in">
                         "إعداد معلمات متقنات وذوات كفاءة عالية في تدريس القرآن الكريم، وداعيات متخصصات في العلوم
                         الشرعية، يجمعن بين الفهم العميق والواسع لأصول الشريعة الإسلامية وفق منهج سلف الأمة الصالح، بحيث
                         يتمكنّ من أداء رسالتهن التربوية والدعوية بأعلى درجات الإتقان والقدرة على التأثير الإيجابي." </p>
@@ -292,7 +293,7 @@
                     <h2 class="fw-bold fade-in-left me-2" data-i18n="ourMessage">أهدافنا</h2>
                 </div>
                 <div class="vision-message w-100">
-                    <p>
+                    <p class="fade-in">
                         ١. الوصول إلى أكبر عدد من الأفراد على مستوى العالم لتعلم القرآن الكريم وما لايسع المسلمة جهله من
                         العلوم الشرعية بفهم سلف الأمة
                         <br>
@@ -327,23 +328,23 @@
                             <img src="./images/muslim men.png" alt="User" class="user-image2" />
                         </li>
                         <li class="testimonial2 swiper-slide fade-in-left">
-                            <video class="user-image2" src="./images/vidio 1.mp4" controls ></video>
+                            <video class="user-image2" src="./images/vidio 1.mp4" controls></video>
                         </li>
                         <li class="testimonial2 swiper-slide fade-in-left">
                             <img src="./images/muslim woman.avif" alt="User" class="user-image2" />
                         </li>
                         <li class="testimonial2 swiper-slide fade-in-left">
                             <iframe width="560" height="315" class="user-image2"
-                            src="https://www.youtube.com/embed/JV-rU6DciFk?si=kWnAn7lTeYfcyyf6"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                src="https://www.youtube.com/embed/JV-rU6DciFk?si=kWnAn7lTeYfcyyf6"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </li>
                         <li class="testimonial2 swiper-slide fade-in-left">
                             <img src="./images/muslim men.png" alt="User" class="user-image2" />
                         </li>
                         <li class="testimonial2 swiper-slide fade-in-left">
-                            <video class="user-image2" src="./images/vidio 1.mp4" controls ></video>
+                            <video class="user-image2" src="./images/vidio 1.mp4" controls></video>
                         </li>
                     </ul>
                     <div class="swiper-pagination"></div>
@@ -405,28 +406,28 @@
         <img src="./images/OIP.jpeg" alt="" class="bg-img">
         <div class="container">
             <div class="main-title mb-5 mt-5 text-center">
-                <h1 class=" fw-bold fa-3x mb-3 text-light">تواصل معنا</h1>
-                <p class="text-white-50 fs-5 fst-italic">بوابة التواصل مع إدارة المنصة</p>
+                <h1 class=" fw-bold fa-3x mb-3 text-light fade-in-left ">تواصل معنا</h1>
+                <p class="text-white-50 fs-5 fst-italic fade-in ">بوابة التواصل مع إدارة المنصة</p>
             </div>
             <div class="row">
                 <div class="col-lg-6 col-md-6">
-                    <form class="Fform fs-5">
-                        <input type="text" placeholder="الأسـم" required class="w-100 mb-4"
+                    <form class="Fform fs-5 fade-in ">
+                        <input type="text" placeholder="الأسـم" required class="w-100 mb-4 fade-in"
                             style="height: 70px; border-radius: 5px;">
-                        <input type="email" placeholder="الأيـمـيـل" required class="w-100 mb-4"
+                        <input type="email" placeholder="الأيـمـيـل" required class="w-100 mb-4 fade-in"
                             style="height: 70px; border-radius: 5px;">
-                        <input type="number" placeholder="رقـم الـهـاتـف" required class="w-100 mb-4"
+                        <input type="number" placeholder="رقـم الـهـاتـف" required class="w-100 mb-4 fade-in"
                             style="height: 70px; border-radius: 5px;">
                     </form>
                 </div>
                 <div class="col-lg-6 col-md-6">
-                    <form>
-                        <textarea placeholder="الـرسـالـة" required class="w-100 mb-3 pt-4"
+                    <form class="fade-in" >
+                        <textarea placeholder="الـرسـالـة" required class="w-100 mb-3 pt-4 fade-in"
                             style="height: 260px; border-radius: 5px;"></textarea>
                     </form>
                 </div>
             </div>
-            <div class="d-flex justify-content-around align-items-center">
+            <div class="d-flex justify-content-around align-items-center fade-in">
                 <p>
                     <button class="click">إرسال</button>
                 </p>
@@ -445,7 +446,7 @@
     <footer class="footer mt-5">
         <div class="container">
             <div class="footer-container">
-                <div class="footer-about">
+                <div class="footer-about fade-in-left ">
                     <div class="footer-logo">
                         <img src="images/font.png" alt="شعار الأكاديمية">
                     </div>
@@ -455,21 +456,21 @@
                         نُقدّم برامج متكاملة لتأصيل طلاب العلم وربطهم بالكتاب والسنة بفهم السلف الصالح. </p>
                 </div>
 
-                <div class="footer-links">
+                <div class="footer-links  fade-in-left ">
                     <h4>روابط مهمة :</h4>
                     <ul>
-                        <li><a href="#">-الصفحة الرئيسية</a></li>
+                        <li><a href="./index.html">-الصفحة الرئيسية</a></li>
+                        <li><a href="#About">-ما تقدمه المنصة</a></li>
+                        <li><a href="#shariea">-أقسام العلوم الشرعية</a></li>
                         <li><a href="#">-البرامج التعليمية</a></li>
                         <li><a href="#">-الدورات التعليمية</a></li>
-                        <li><a href="#">-أقسام العلوم الشرعية</a></li>
                         <li><a href="#Contact">-تواصل معنا</a></li>
-                        <li><a href="#">- الدورات العامة</a></li>
-                        <li><a href="#">- إنشاء حساب جديد</a></li>
-                        <li><a href="#">- تسجيل الدخول</a></li>
+                        <li><a href="./Registration/signup.html">- إنشاء حساب جديد</a></li>
+                        <li><a href="./Registration/login.html">- تسجيل الدخول</a></li>
                     </ul>
                 </div>
 
-                <div class="footer-contact">
+                <div class="footer-contact  fade-in-left ">
                     <h4>طرق التواصل معنا :</h4>
                     <p><i class="fas fa-envelope"></i> info@example.com</p>
                     <p><i class="fab fa-whatsapp"></i> 00000000000</p>
@@ -481,7 +482,7 @@
                     </div>
                 </div>
             </div>
-            <div class="footer-bottom">
+            <div class="footer-bottom  fade-in-left ">
                 © 2025 <a href="https://fikrati-roan.vercel.app" target="_blank">Fikriti Software Development</a> جميع
                 الحقوق محفوظة.
             </div>
