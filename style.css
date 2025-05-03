@@ -285,7 +285,7 @@ body {
   justify-content: center;
   z-index: 1;
 }
-.hero img {
+.hero .main-img img {
   position: absolute;
   inset: 0;
   display: block;
@@ -294,6 +294,16 @@ body {
   object-fit: cover;
   z-index: -1;
   filter: brightness(0.6);
+}
+
+.image-home img{
+  width: 140px;
+  height: 140px;
+  display: block;
+  margin: 0 auto 20px auto;
+  z-index: 1000;
+  position: relative;
+
 }
 .hero:before {
   content: "";
@@ -316,7 +326,8 @@ body {
 .hero p {
   margin: 10px 0 0 0;
   font-size: 20px;
-  color: color-mix(in srgb, var(--white-color--), transparent 30%);
+  /* color: color-mix(in srgb, var(--white-color--), transparent 10%); */
+  color: #f5f5f5;
   text-align: center;
 }
 /* ##################### */
@@ -360,6 +371,10 @@ body {
   .menu .dropdown-item {
     font-size: 12px;
     padding: 6px;
+  }
+  .image-home img{
+    width: 110px;
+    height: 110px;
   }
 }
 
