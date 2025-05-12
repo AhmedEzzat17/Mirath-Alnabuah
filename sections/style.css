@@ -81,12 +81,10 @@ body {
     transform: translateY(-100px);
     transition: opacity 1s ease, transform 1s ease;
     padding-top: 0px!important;
-
+    height: 70px;
   }
   .navbar.visible {
     opacity: 1;
-    transform: translateY(0);
-    height: 70px;
   }
   @media (max-width: 992px) {
     .navbar-toggler {
